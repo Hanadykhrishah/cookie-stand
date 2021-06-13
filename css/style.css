@@ -1,0 +1,65 @@
+h1 {
+    font-size: 50px;
+    font-weight: 50;
+    color : red;
+    text-align: center;
+  }
+
+  main img {
+    width: 20%;
+  }
+
+ 
+
+  * {
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 50px;
+    font-weight: 50;
+    color : red;
+   
+  }
+
+  a {
+    color: hotpink;
+    font-size: 50px;
+    font-weight: 50;
+    text-align: right;
+    background-color: yellow;
+  }
+
+  body {
+    background-color:silver;
+  }
+  footer {
+    text-align: center;
+    background:pink;
+    color:purple;
+    line-height:100px
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  header nav {
+    float: right;
+
+}
+
+header nav ul li {
+    float: right;
+     padding: 10px;
+    }
+
+    
+
+
