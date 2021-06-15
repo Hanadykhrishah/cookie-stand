@@ -29,8 +29,8 @@ h1 {
 
   a {
     color: hotpink;
-    font-size: 50px;
-    font-weight: 50;
+    font-size: 20px;
+    font-weight: 20;
     text-align: right;
     background-color: yellow;
   }
@@ -47,17 +47,39 @@ h1 {
 
   ul {
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 100px;
+    text-align: justify;
   }
 
   header nav {
-    float: right;
+    
+    text-align: justify;
 
 }
 
 header nav ul li {
     float: right;
-     padding: 10px;
+    padding: 10px;
+
+    }
+
+
+    p {
+      line-height: 1.5;
+      text-indent: 30px;
+      text-align: justify;
+      font-size: 20px;
+      font-weight: 20;
+    }
+
+    table{
+
+      line-height: 1.5;
+      text-indent: 30px;
+      text-align: justify;
+      font-size: 20px;
+      font-weight: 20;
+      background-color:seagreen;
     }
 
     
