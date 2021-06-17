@@ -1,8 +1,9 @@
 h1 {
     font-size: 50px;
     font-weight: 50;
-    color : red;
+    color :black;
     text-align: center;
+    font-family: 'VT323', monospace;
   }
 
   main img {
@@ -12,37 +13,32 @@ h1 {
  
 
   * {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
 
   body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    background-color:plum;
   }
 
-  h2 {
-    font-size: 50px;
-    font-weight: 50;
-    color : red;
-   
-  }
 
   a {
-    color: hotpink;
+    color: black;
     font-size: 20px;
     font-weight: 20;
-    text-align: right;
-    background-color: yellow;
+    background-color:yellow;
+    text-align: center;
+ 
   }
 
-  body {
-    background-color:silver;
-  }
   footer {
     text-align: center;
     background:pink;
-    color:purple;
+    color:black;
     line-height:100px
+    font-family: 'VT323', monospace;
+  
   }
 
   ul {
@@ -52,9 +48,10 @@ h1 {
   }
 
   header nav {
-    
+    font-family: 'VT323', monospace;
     text-align: justify;
-
+    font-size: 30px;
+    font-weight: 20;
 }
 
 header nav ul li {
@@ -70,6 +67,9 @@ header nav ul li {
       text-align: justify;
       font-size: 20px;
       font-weight: 20;
+      font-family: 'Domine', serif;
+      background-color: salmon;
+      color:purple;
     }
 
     table{
@@ -79,8 +79,28 @@ header nav ul li {
       text-align: justify;
       font-size: 20px;
       font-weight: 20;
-      background-color:seagreen;
+      background-color:palevioletred;
+  
+      
     }
+
+    form{
+
+      font-size: 20px;
+      font-weight: 20;
+      color: blue;
+      padding: 20px;
+    }
+    legend {
+      font-size: 30px;
+      font-weight: 20;
+      color:red; 
+    }
+
+    table, th, td {
+      border:3px solid black;
+    }
+
 
     
 
