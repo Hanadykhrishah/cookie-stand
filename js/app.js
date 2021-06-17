@@ -143,6 +143,8 @@ function addNewCookieShop(event) {
   let max = event.target.maxCust .value;
   let avg = event.target.avgCookie.value;
 
+  salesTable.deleteRow(-1);
+
   let newLoc =  new CookieStand (name ,min ,max ,avg );
 
 
